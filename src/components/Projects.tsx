@@ -11,7 +11,6 @@ import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
 import project3 from "@/assets/project3.jpg";
 import project4 from "@/assets/project4.jpg";
-import project5 from "@/assets/project5.jpg";
 
 //Food Express
 import food1 from "@/assets/food_express/food1.png";
@@ -21,6 +20,20 @@ import food4 from "@/assets/food_express/food4.png";
 import food5 from "@/assets/food_express/food5.png";
 import food6 from "@/assets/food_express/food6.png";
 import food7 from "@/assets/food_express/food7.png";
+
+//ecosphere
+import eco1 from "@/assets/ecosphere/ecosphere1.png";
+import eco2 from "@/assets/ecosphere/ecosphere2.png";
+import eco3 from "@/assets/ecosphere/ecosphere3.png";
+import eco4 from "@/assets/ecosphere/ecosphere4.png";
+
+
+//Legendary Store
+import legend1 from "@/assets/legendary store/LSsnap_1.png";
+import legend2 from "@/assets/legendary store/LSsnap_2.png";
+import legend3 from "@/assets/legendary store/LSsnap_6.png";
+import legend4 from "@/assets/legendary store/LSsnap_7.png";
+
 
 interface Project {
   title: string;
@@ -43,7 +56,7 @@ const Projects = () => {
         "A comprehensive analytics dashboard for developers with real-time code metrics, syntax analysis, and performance insights.",
       stack: "Java, Spring Boot, React",
       images: [project1, project2, project3],
-      link: "#",
+      link: "https://github.com/BilalR4M/CodeComplexityMeasuringMachine",
     },
     {
       title: "Food Express",
@@ -54,12 +67,12 @@ const Projects = () => {
       link: "https://github.com/anjii22/Food_Express",
     },
     {
-      title: "Hotel Management System",
+      title: "Ecosphere",
       description:
-        "A complete hotel management solution for room booking, guest management, staff coordination, and billing.",
-      stack: "MERN Stack",
-      images: [project3],
-      link: "#",
+        "A mobile app promoting sustainable living through sponsering tree planting, waste managing, and community challenges.",
+      stack: "Flutter, Firebase",
+      images: [eco1, eco2, eco3, eco4],
+      link: "https://github.com/anjii22/ecosphere",
     },
     {
       title: "Hospital Management System",
@@ -67,15 +80,15 @@ const Projects = () => {
         "An integrated hospital management system for patient records, appointment scheduling, staff management, and billing.",
       stack: "C++, SQL",
       images: [project4],
-      link: "#",
+      link: "https://github.com/anjii22/hospital-management-system",
     },
     {
       title: "Online Game & Music Store",
       description:
         "A web platform for browsing, purchasing, and playing games and music with user accounts and recommendations.",
-      stack: "HTML, CSS, JavaScript",
-      images: [project5],
-      link: "#",
+      stack: "HTML, CSS, PHP, MySQL",
+      images: [legend1, legend2, legend3, legend4],
+      link: "https://github.com/anjii22/legendary-store",
     },
   ];
 
