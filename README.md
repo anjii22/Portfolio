@@ -2,7 +2,8 @@
 
 Welcome to my personal portfolio website! Here you can find information about my projects, skills, and experience as a software developer.
 
-🌐 **Live Site:** [https://myportfolioap.vercel.app/](https://myportfolioap.vercel.app/)
+🌐 **Live Site:** [View the live site here](https://myportfolioap.vercel.app/)
+
 
 ## Features
 - Showcases my projects with descriptions and tech stacks
