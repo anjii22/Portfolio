@@ -179,12 +179,19 @@ const Projects = () => {
                     )}
                   </p>
 
-                  <Button
-                    variant="outline"
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                 <a
+                    href={project.link}
+                    target={project.link.startsWith("http") ? "_blank" : "_self"}
+                    rel={project.link.startsWith("http") ? "noopener noreferrer" : undefined}
                   >
-                    View Project <ExternalLink className="ml-2 w-4 h-4" />
-                  </Button>
+                    <Button
+                      variant="outline"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                    >
+                      View Project <ExternalLink className="ml-2 w-4 h-4" />
+                    </Button>
+                  </a>
+
                 </div>
               </div>
             </div>
