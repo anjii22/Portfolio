@@ -51,7 +51,7 @@ const Projects = () => {
         "A modern food ordering platform with seamless checkout, order tracking, menu browsing, and personalized recommendations.",
       stack: "MERN Stack, Docker",
       images: [food1, food2, food3, food4, food5, food6, food7],
-      link: "#",
+      link: "https://github.com/anjii22/Food_Express",
     },
     {
       title: "Hotel Management System",
