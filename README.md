@@ -8,7 +8,6 @@ Welcome to my personal portfolio website! Here you can find information about my
 ## Features
 - Showcases my projects with descriptions and tech stacks
 - Clean, modern design
-- Responsive layout for all devices
 
 ## Tech Stack
 - HTML, CSS, JavaScript
